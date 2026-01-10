@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-[#f9f9f9]">
     <!-- هدر ثابت -->
     <header class="bg-[#1a1a1a] text-white py-3 px-6 flex justify-between items-center shadow-md">
-      <div class="text-xl font-bold">JobFinder</div>
+      <div class="text-xl font-bold">CatchKar</div>
       <nav class="flex gap-6 text-sm relative">
         <div v-for="item in navItems" :key="item.title" class="relative group">
           <!-- لینک فقط برای خانه -->
@@ -105,7 +105,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const user = ref({ email: 'shirinsp77@gmail.com' })
+const user = ref({ email: 'xxxxxxx@gmail.com' })
 const showUpgrade = ref(false)
 
 const navItems = [
