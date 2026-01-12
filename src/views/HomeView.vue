@@ -4,6 +4,7 @@
     <Header />
     <Tools />
     <SuccessStories />
+    <Footer />
   </div>
 </template>
 
@@ -11,4 +12,5 @@
 import Header from '../components/Header.vue';
 import SuccessStories from '../components/SuccessStories.vue';
 import Tools from '../components/Tools.vue';
+import Footer from '../components/footer.vue';
 </script>
