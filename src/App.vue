@@ -1,16 +1,14 @@
-  <template>
-  
-  
-  <router-view />
-  
-
+<template>
+  <div class="flex flex-col min-h-screen">
+    <Header />
+    <main class="flex-grow">
+      <router-view />
+    </main>
+    <Footer />
+  </div>
 </template>
 
-
-
 <script setup>
-
-
-
-// نیازی به چیزی نیست
+import Header from "@/components/Header.vue"
+import Footer from "@/components/Footer.vue"
 </script>
